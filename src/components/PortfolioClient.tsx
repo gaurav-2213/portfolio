@@ -10,6 +10,7 @@ import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { About } from "@/components/sections/About";
 import { Achievements } from "@/components/sections/Achievements";
 import { Certifications } from "@/components/sections/Certifications";
+import { Documents } from "@/components/sections/Documents";
 import { Contact } from "@/components/sections/Contact";
 import { Experience } from "@/components/sections/Experience";
 import { Hero } from "@/components/sections/Hero";
@@ -46,6 +47,7 @@ export function PortfolioClient() {
             <Projects />
             <Achievements />
             <Certifications />
+            <Documents />
             <Contact />
           </main>
           <Footer />
